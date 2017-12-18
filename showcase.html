@@ -1,0 +1,766 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+        Md. Sultanul Arefin Portfolio Site
+    </title>
+    <link href="./index.html" type="image/x-icon" rel="icon" />
+    <link href="./index.html" type="image/x-icon" rel="shortcut icon" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/a1.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+
+    <link href="./css/lg-fb-comment-box.css" rel="stylesheet" />
+    <link href="./css/lg-transitions.css" rel="stylesheet" />
+    <link href="./css/lightgallery.css" rel="stylesheet" />
+
+
+
+    <style>
+        .mc-field-group ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mc-field-group strong {
+            color: white;
+        }
+
+        .mc-field-group .mc-field-group input[type="radio"]:checked:before {
+            border: 2px solid white;
+        }
+    </style>
+
+
+    <style type="text/css">
+        body {
+            background-color: #152836;
+            color: #eee;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+        }
+
+        .small {
+            font-size: 11px;
+            color: #999;
+            display: block;
+            margin-top: -10px
+        }
+
+        .cont {
+            text-align: center;
+        }
+
+        .page-head {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+            .page-head .lead {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.4;
+                margin-bottom: 50px;
+                margin-top: 0;
+            }
+
+        .btn {
+            -moz-user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.42857;
+            margin-bottom: 0;
+            padding: 6px 12px;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+
+        .btn-lg {
+            border-radius: 2px;
+            font-size: 18px;
+            line-height: 1.33333;
+            padding: 10px 16px;
+        }
+
+        .btn-primary:hover {
+            background-color: #fff;
+            color: #152836;
+        }
+
+        .btn-primary {
+            background-color: #152836;
+            border-color: #0e1a24;
+            color: #ffffff;
+        }
+
+        .btn-primary {
+            border-color: #eeeeee;
+            color: #eeeeee;
+            transition: color 0.1s ease 0s, background-color 0.15s ease 0s;
+        }
+
+        .page-head h1 {
+            font-size: 42px;
+            margin: 0 0 20px;
+            color: #FFF;
+            position: relative;
+            display: inline-block;
+        }
+
+            .page-head h1 .version {
+                bottom: 0;
+                color: #ddd;
+                font-size: 11px;
+                font-style: italic;
+                position: absolute;
+                width: 58px;
+                right: -58px;
+            }
+
+        .demo-gallery > ul {
+            margin-bottom: 0;
+            padding-left: 15px;
+        }
+
+            .demo-gallery > ul > li {
+                margin-bottom: 15px;
+                width: 180px;
+                display: inline-block;
+                margin-right: 15px;
+                list-style: outside none none;
+            }
+
+                .demo-gallery > ul > li a {
+                    border: 3px solid #FFF;
+                    border-radius: 3px;
+                    display: block;
+                    overflow: hidden;
+                    position: relative;
+                    float: left;
+                }
+
+                    .demo-gallery > ul > li a > img {
+                        -webkit-transition: -webkit-transform 0.15s ease 0s;
+                        -moz-transition: -moz-transform 0.15s ease 0s;
+                        -o-transition: -o-transform 0.15s ease 0s;
+                        transition: transform 0.15s ease 0s;
+                        -webkit-transform: scale3d(1, 1, 1);
+                        transform: scale3d(1, 1, 1);
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .demo-gallery > ul > li a:hover > img {
+                        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                        transform: scale3d(1.1, 1.1, 1.1);
+                    }
+
+                    .demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+                        opacity: 1;
+                    }
+
+                    .demo-gallery > ul > li a .demo-gallery-poster {
+                        background-color: rgba(0, 0, 0, 0.1);
+                        bottom: 0;
+                        left: 0;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        -webkit-transition: background-color 0.15s ease 0s;
+                        -o-transition: background-color 0.15s ease 0s;
+                        transition: background-color 0.15s ease 0s;
+                    }
+
+                        .demo-gallery > ul > li a .demo-gallery-poster > img {
+                            left: 50%;
+                            margin-left: -10px;
+                            margin-top: -10px;
+                            opacity: 0;
+                            position: absolute;
+                            top: 50%;
+                            -webkit-transition: opacity 0.3s ease 0s;
+                            -o-transition: opacity 0.3s ease 0s;
+                            transition: opacity 0.3s ease 0s;
+                        }
+
+                    .demo-gallery > ul > li a:hover .demo-gallery-poster {
+                        background-color: rgba(0, 0, 0, 0.5);
+                    }
+
+        .demo-gallery .justified-gallery > a > img {
+            -webkit-transition: -webkit-transform 0.15s ease 0s;
+            -moz-transition: -moz-transform 0.15s ease 0s;
+            -o-transition: -o-transform 0.15s ease 0s;
+            transition: transform 0.15s ease 0s;
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            height: 100%;
+            width: 100%;
+        }
+
+        .demo-gallery .justified-gallery > a:hover > img {
+            -webkit-transform: scale3d(1.1, 1.1, 1.1);
+            transform: scale3d(1.1, 1.1, 1.1);
+        }
+
+        .demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+            opacity: 1;
+        }
+
+        .demo-gallery .justified-gallery > a .demo-gallery-poster {
+            background-color: rgba(0, 0, 0, 0.1);
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            -webkit-transition: background-color 0.15s ease 0s;
+            -o-transition: background-color 0.15s ease 0s;
+            transition: background-color 0.15s ease 0s;
+        }
+
+            .demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+                left: 50%;
+                margin-left: -10px;
+                margin-top: -10px;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                -webkit-transition: opacity 0.3s ease 0s;
+                -o-transition: opacity 0.3s ease 0s;
+                transition: opacity 0.3s ease 0s;
+            }
+
+        .demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .demo-gallery .video .demo-gallery-poster img {
+            height: 48px;
+            margin-left: -24px;
+            margin-top: -24px;
+            opacity: 0.8;
+            width: 48px;
+        }
+
+        .demo-gallery.dark > ul > li a {
+            border: 3px solid #04070a;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <header class="nav-down">
+
+        <!--header for web-->
+        <div class="container-fluid hidden-xs hidden-sm">
+            <div class="row">
+
+                <div class="col-sm-9 col-md-9">
+                    <nav class="navbar-right">
+                        <ul class="menu">
+
+                            <li>
+                                <a href="./">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="./techskills.html">Technical Skills</a>
+                            </li>
+                            <li>
+                                <a href="./strengths.html">Strengths</a>
+                            </li>
+                            <!--<li>
+            <a href="/pages/road_trip" class="new-tag">Road Trip</a>
+        </li>-->
+                            <!--<li>
+            <a href="./showcase.html" class="hide">Photo Gallery</a>
+        </li>-->
+                            <li>
+                                <a href="./showcase.html">Photo Gallery</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid hidden-md hidden-lg">
+            <div class="row">
+
+                <div class="col-sm-6 col-xs-6">
+                    <div class="navbar-right">
+                        <button class="btn-menu" data-toggle="modal" data-target="#menumodal">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            <!--<i class="toggle-modal icon_menu">Menu</i>-->
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--header fro mobile-->
+
+    <div class="modal fade" id="menumodal" tabindex="-1" aria-labelledby="modal-label-3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-content-menu">
+                <div class="modal-header modal-header-menu">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb20">
+                        <div class="col-xs-10 col-xs-offset-1">
+                            <div class="panel-group" id="toggle">
+
+
+
+                                <div class="panel">
+                                    <div class="panel-heading p0">
+                                        <h4 class="panel-title title-responsivo-menu">
+                                            <a href="./index.html" target="_blank">Home</a>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="panel">
+                                    <div class="panel-heading p0">
+                                        <h4 class="panel-title title-responsivo-menu">
+                                            <!--<a href="./techskills.html" class="new-tag" target="_blank">Technical Skills</a>-->
+                                            <a href="./techskills.html" target="_blank">Technical Skills</a>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="panel">
+                                    <div class="panel-heading p0">
+                                        <h4 class="panel-title title-responsivo-menu">
+                                            <a href="./Strengths.html" target="_blank">Strengths</a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <div class="panel-heading p0">
+                                        <h4 class="panel-title title-responsivo-menu">
+                                            <a href="./showcase.html" target="_blank">Photo Gallery</a>
+                                        </h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--content section-->
+    <section id="sharing" class="ptb-80 fundo-w">
+
+
+
+
+        <div class="container">
+
+            <div class="cont">
+                <div class="page-head">
+                    <!--<h2>jQuery lightgallery</h2>-->
+                    <!--<h3 class="lead">A lightweight, customizable, modular, responsive, lightbox gallery plugin for jQuery.</h3><a href="https://github.com/sachinchoolur/lightGallery" class="btn btn-primary btn-lg">View on github</a>-->
+                </div>
+
+                <div class="demo-gallery">
+                    <ul id="lightgallery">
+                        <li data-responsive="./showcase/project management system Update porject.jpg"
+                            data-src="./showcase/project management system Update porject.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>project management system Update porject.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/project management system Update porject.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/project management system Update porject.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/project management system tentative final.jpg"
+                            data-src="./showcase/project management system tentative final.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>project management system tentative final.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/project management system tentative final.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/project management system tentative final.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li data-responsive="./showcase/Simple Project Management Tool index page.jpg"
+                            data-src="./showcase/Simple Project Management Tool index page.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Simple Project Management Tool index page.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Simple Project Management Tool index page.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Simple Project Management Tool index page.jpg">
+                                </div>
+                            </a>
+                        </li>
+                        <li data-responsive="./showcase/project detail page.jpg"
+                            data-src="./showcase/project detail page.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>project detail page.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/project detail page.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/project detail page.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/IT admin page project Management Tool.jpg"
+                            data-src="./showcase/IT admin page project Management Tool.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>IT admin page project Management Tool.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/IT admin page project Management Tool.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/IT admin page project Management Tool.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/project inwhich you are involved(project manager).jpg"
+                            data-src="./showcase/project inwhich you are involved(project manager).jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>project inwhich you are involved(project manager).</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/project inwhich you are involved(project manager).jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/project inwhich you are involved(project manager).jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+                        <li data-responsive="./showcase/simple project management system Users Seed data.jpg"
+                            data-src="./showcase/simple project management system Users Seed data.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>simple project management system Users Seed data.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/simple project management system Users Seed data.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/simple project management system Users Seed data.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li data-responsive="./showcase/electron app taking snapshots.jpg"
+                            data-src="./showcase/electron app taking snapshots.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>electron app taking snapshots.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/electron app taking snapshots.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/electron app taking snapshots.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li data-responsive="./showcase/Malvern Employee Profile management.jpg"
+                            data-src="./showcase/Malvern Employee Profile management.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Malvern Employee Profile management.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Malvern Employee Profile management.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Malvern Employee Profile management.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/project management system Update porject.jpg"
+                            data-src="./showcase/project management system Update porject.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>project management system Update porject.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/project management system Update porject.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/project management system Update porject.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/Malvern Student Form Processing.jpg"
+                            data-src="./showcase/Malvern Student Form Processing.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Malvern Student Form Processing.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Malvern Student Form Processing.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Malvern Student Form Processing.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/Pdf Generation StudentRegistration at malvern app.jpg"
+                            data-src="./showcase/Pdf Generation StudentRegistration at malvern app.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Pdf Generation StudentRegistration at malvern app.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Pdf Generation StudentRegistration at malvern app.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Pdf Generation StudentRegistration at malvern app.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/Malvern web app NewLeave page.jpg"
+                            data-src="./showcase/Malvern web app NewLeave page.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Malvern web app NewLeave page.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Malvern web app NewLeave page.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Malvern web app NewLeave page.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/django project home page comment like reply post etc.jpg"
+                            data-src="./showcase/django project home page comment like reply post etc.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>django project home page comment like reply post etc.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/django project home page comment like reply post etc.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/django project home page comment like reply post etc.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/django project user specific post.jpg"
+                            data-src="./showcase/django project user specific post.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>django project user specific post.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/django project user specific post.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/django project user specific post.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/Course Management System registration page.jpg"
+                            data-src="./showcase/Course Management System registration page.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Course Management System registration page.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Course Management System registration page.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Course Management System registration page.jpg">
+                                </div>
+                            </a>
+                        </li>
+                        <li data-responsive="./showcase/Course Management System course search.jpg"
+                            data-src="./showcase/Course Management System course search.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Course Management System course search.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Course Management System course search.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Course Management System course search.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+
+                        <li data-responsive="./showcase/admin page of chatscript made in CakePHP.jpg"
+                            data-src="./showcase/admin page of chatscript made in CakePHP.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>admin page of chatscript made in CakePHP.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/admin page of chatscript made in CakePHP.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/admin page of chatscript made in CakePHP.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/Client Page chatScript.jpg"
+                            data-src="./showcase/Client Page chatScript.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Client Page chatScript.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Client Page chatScript.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Client Page chatScript.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+
+                        <li data-responsive="./showcase/English Numbre to Bangla Pronunciation form any Number.jpg"
+                            data-src="./showcase/English Numbre to Bangla Pronunciation form any Number.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>English Numbre to Bangla Pronunciation form any Number.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/English Numbre to Bangla Pronunciation form any Number.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/English Numbre to Bangla Pronunciation form any Number.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li data-responsive="./showcase/bitbook login page.jpg"
+                            data-src="./showcase/bitbook login page.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>bitbook login page.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/bitbook login page.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/bitbook login page.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li data-responsive="./showcase/BitBook User Page.jpg"
+                            data-src="./showcase/BitBook User Page.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>BitBook User Page.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/BitBook User Page.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/BitBook User Page.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li data-responsive="./showcase/RawPHP Blog Site.jpg"
+                            data-src="./showcase/RawPHP Blog Site.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>RawPHP Blog Site.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/RawPHP Blog Site.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/RawPHP Blog Site.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/Mobile Store Management System Home Page.jpg"
+                            data-src="./showcase/Mobile Store Management System Home Page.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>Mobile Store Management System Home Page.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/Mobile Store Management System Home Page.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/Mobile Store Management System Home Page.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-responsive="./showcase/add mobile page at mobile storemanagement system.jpg"
+                            data-src="./showcase/add mobile page at mobile storemanagement system.jpg"
+                            data-sub-html="<h4>Fading Light</h4><p>add mobile page at mobile storemanagement system.</p>"
+                            data-pinterest-text="Pin it"
+                            data-tweet-text="share on twitter ">
+                            <a href="">
+                                <img class="img-responsive" src="./showcase/add mobile page at mobile storemanagement system.jpg">
+                                <div class="demo-gallery-poster">
+                                    <img src="./showcase/add mobile page at mobile storemanagement system.jpg">
+                                </div>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <h3>Click on any of the images to see image in preview mode</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+</html>
+
+
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/a1.js"></script>
+<script src="./js/lightgallery-all.js"></script>
+<script src="./js/lightgallery.js"></script>
+
+<script src="./js/loader.js"></script>
+
+<script src="./js/jquery.themepunch.tools.min.js"></script>
+<script src="./js/jquery.themepunch.revolution.min.js"></script>
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $('#lightgallery').lightGallery({
+            pager: true
+        });
+    });
+
+</script>
+
