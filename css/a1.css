@@ -27683,7 +27683,29 @@ li.language a {
     top: 15px;
 }
 
+
+
 .new-tag {
+    position: relative;
+}
+
+.panel-title .anotherversoin::after {
+    position: absolute;
+    content: url(../img/version2.png);
+    right: -29px;
+    height: 24px;
+    top: -6px;
+}
+
+.anotherversoin::after {
+    content: url("../img/version2.png");
+    height: 24px;
+    position: absolute;
+    right: 4px;
+    top: 15px;
+}
+
+.anotherversoin {
     position: relative;
 }
 
