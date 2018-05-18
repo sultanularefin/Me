@@ -11614,175 +11614,175 @@ img.tp-slider-alternative-image {
 .revicon-search-1:before {
     content: '\e802'
 }
-/* 'î ‚' */
+/* '' */
 .revicon-pencil-1:before {
     content: '\e831'
 }
-/* 'î ±' */
+/* '' */
 .revicon-picture-1:before {
     content: '\e803'
 }
-/* 'î ƒ' */
+/* '' */
 .revicon-cancel:before {
     content: '\e80a'
 }
-/* 'î Š' */
+/* '' */
 .revicon-info-circled:before {
     content: '\e80f'
 }
-/* 'î ' */
+/* '' */
 .revicon-trash:before {
     content: '\e801'
 }
-/* 'î ' */
+/* '' */
 .revicon-left-dir:before {
     content: '\e817'
 }
-/* 'î —' */
+/* '' */
 .revicon-right-dir:before {
     content: '\e818'
 }
-/* 'î ˜' */
+/* '' */
 .revicon-down-open:before {
     content: '\e83b'
 }
-/* 'î »' */
+/* '' */
 .revicon-left-open:before {
     content: '\e819'
 }
-/* 'î ™' */
+/* '' */
 .revicon-right-open:before {
     content: '\e81a'
 }
-/* 'î š' */
+/* '' */
 .revicon-angle-left:before {
     content: '\e820'
 }
-/* 'î  ' */
+/* '' */
 .revicon-angle-right:before {
     content: '\e81d'
 }
-/* 'î ' */
+/* '' */
 .revicon-left-big:before {
     content: '\e81f'
 }
-/* 'î Ÿ' */
+/* '' */
 .revicon-right-big:before {
     content: '\e81e'
 }
-/* 'î ž' */
+/* '' */
 .revicon-magic:before {
     content: '\e807'
 }
-/* 'î ‡' */
+/* '' */
 .revicon-picture:before {
     content: '\e800'
 }
-/* 'î €' */
+/* '' */
 .revicon-export:before {
     content: '\e80b'
 }
-/* 'î ‹' */
+/* '' */
 .revicon-cog:before {
     content: '\e832'
 }
-/* 'î ²' */
+/* '' */
 .revicon-login:before {
     content: '\e833'
 }
-/* 'î ³' */
+/* '' */
 .revicon-logout:before {
     content: '\e834'
 }
-/* 'î ´' */
+/* '' */
 .revicon-video:before {
     content: '\e805'
 }
-/* 'î …' */
+/* '' */
 .revicon-arrow-combo:before {
     content: '\e827'
 }
-/* 'î §' */
+/* '' */
 .revicon-left-open-1:before {
     content: '\e82a'
 }
-/* 'î ª' */
+/* '' */
 .revicon-right-open-1:before {
     content: '\e82b'
 }
-/* 'î «' */
+/* '' */
 .revicon-left-open-mini:before {
     content: '\e822'
 }
-/* 'î ¢' */
+/* '' */
 .revicon-right-open-mini:before {
     content: '\e823'
 }
-/* 'î £' */
+/* '' */
 .revicon-left-open-big:before {
     content: '\e824'
 }
-/* 'î ¤' */
+/* '' */
 .revicon-right-open-big:before {
     content: '\e825'
 }
-/* 'î ¥' */
+/* '' */
 .revicon-left:before {
     content: '\e836'
 }
-/* 'î ¶' */
+/* '' */
 .revicon-right:before {
     content: '\e826'
 }
-/* 'î ¦' */
+/* '' */
 .revicon-ccw:before {
     content: '\e808'
 }
-/* 'î ˆ' */
+/* '' */
 .revicon-arrows-ccw:before {
     content: '\e806'
 }
-/* 'î †' */
+/* '' */
 .revicon-palette:before {
     content: '\e829'
 }
-/* 'î ©' */
+/* '' */
 .revicon-list-add:before {
     content: '\e80c'
 }
-/* 'î Œ' */
+/* '' */
 .revicon-doc:before {
     content: '\e809'
 }
-/* 'î ‰' */
+/* '' */
 .revicon-left-open-outline:before {
     content: '\e82e'
 }
-/* 'î ®' */
+/* '' */
 .revicon-left-open-2:before {
     content: '\e82c'
 }
-/* 'î ¬' */
+/* '' */
 .revicon-right-open-outline:before {
     content: '\e82f'
 }
-/* 'î ¯' */
+/* '' */
 .revicon-right-open-2:before {
     content: '\e82d'
 }
-/* 'î ­' */
+/* '' */
 .revicon-equalizer:before {
     content: '\e83a'
 }
-/* 'î º' */
+/* '' */
 .revicon-layers-alt:before {
     content: '\e804'
 }
-/* 'î „' */
+/* '' */
 .revicon-popup:before {
     content: '\e828'
 }
-/* 'î ¨' */
+/* '' */
 /* ****************************************************************************
 *
 * Owl carousel custom style ( Voyo One )
@@ -14048,7 +14048,7 @@ iframe {
 
 /* Background images path */
 .bg01 {
-    background-image: url('../images/slider/slide-1.jpg');
+    background-image: url('../img/slide-1.jpg');
     position: relative;
     background-repeat: no-repeat;
     background-position: center top;
@@ -14057,11 +14057,11 @@ iframe {
 }
 
 .bg02 {
-    background-image: url('../images/bg/recipe.jpg');
+    background-image: url('../img/recipe.jpg');
 }
 
 .bg11 {
-    background-image: url('../images/bg/cakefest.jpg');
+    background-image: url('../img/cakefest.jpg');
     position: relative;
     background-repeat: no-repeat;
     background-position: center top;
@@ -14889,7 +14889,7 @@ iframe {
 
     .menu > li > a {
         padding: 25px 35px;
-        font-size: 13px;
+        font-size: 23px;
         text-transform: capitalize;
         font-weight: 500;
         display: inline-block;
@@ -21828,7 +21828,7 @@ header {
 
 
 .hero {
-    background-image: url('../images/slider/slide-1.jpg');
+    background-image: url('../img/slide-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 70px 0 400px 0;
@@ -21836,10 +21836,10 @@ header {
 }
 
 .hero-2 {
-    background-image: url('../images/bg/cakefest.jpg');
+    background-image: url('../img/cakefest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 70px 0 700px 0;
+    padding: 70px 0 400px 0;
     background-position: center center;
     margin-bottom: 30px;
 }
@@ -23854,22 +23854,6 @@ table.fc-border-separate {
     margin: 10px 0 30px;
 }
 
-.headerlink {
-    display: none;
-}
-
-h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink {
-    display: inline;
-    margin: 0 0 0 5px;
-    font-size: 80%;
-    padding: 0;
-    line-height: 95%;
-    vertical-align: center;
-}
-
-h2:hover .headerlink {
-    line-height: inherit;
-}
 
 .br-bottom-sidebar:after {
     content: "";
@@ -26199,23 +26183,8 @@ code {
         margin: 0;
     }
 
-#sponsors {
-    background-color: #f7f7f5;
-}
-
-.sponsor {
-    background-color: white;
-    border-radius: 30px;
-    padding: 20px;
-    margin-top: 80px;
-}
-
-.sponsor-copy {
-    text-align: justify;
-}
-
 @media (max-width: 767px) {
-    /*CSS LIDO EM DISPOSITIVOS ATÃ‰ 767 PX DE LARGURA*/
+    /*CSS LIDO EM DISPOSITIVOS ATÉ 767 PX DE LARGURA*/
     .title-home h1 {
         font-size: 22px;
         margin-bottom: 5px;
@@ -26891,7 +26860,7 @@ code {
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /*CSS LIDO EM DISPOSITIVOS ATÃ‰ 991 PX DE LARGURA*/
+    /*CSS LIDO EM DISPOSITIVOS ATÉ 991 PX DE LARGURA*/
     .header-transparent .main-header {
         background-color: #d33c44;
     }
@@ -27148,7 +27117,7 @@ code {
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /*CSS LIDO EM DISPOSITIVOS ATÃ‰ 1199 PX DE LARGURA*/
+    /*CSS LIDO EM DISPOSITIVOS ATÉ 1199 PX DE LARGURA*/
     .menu > li > a {
         padding: 25px 20px;
     }
@@ -27726,6 +27695,7 @@ li.language a {
     color: #fff;
     font-size: 11px !important;
     font-weight: 800 !important;
+    margin-left: 10px;
 }
 
     .donate:hover {
@@ -27742,9 +27712,7 @@ li.language a {
     color: #fff;
 }
 
-.bg-white {
-    background-color: white;
-}
+
 /* ---------------------- writers ------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
