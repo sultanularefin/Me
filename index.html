@@ -4,12 +4,22 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121356681-1"></script>
+    
+    
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-121356681-1');
     </script>
+    
+    <script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script>
+  <script>
+  tinymce.init({
+    selector: '#mytextarea'
+  });
+  </script>
 
 
 
@@ -595,6 +605,13 @@
 
             </div>
         </div>
+        
+    </section>
+     <section id="recipe" class="clearfix" data-stellar-background-ratio="0.4">
+         <h1>TinyMCE Quick Start Guide</h1>
+  <form method="post">
+    <textarea id="mytextarea">Hello, World!</textarea>
+  </form>
     </section>
 
     <!--carousel slide-->
