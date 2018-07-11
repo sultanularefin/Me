@@ -22,6 +22,12 @@
         tinymce.init({
             selector: '#mytextarea'
         });
+editor.addButton('mybutton', {
+  text: "My Button",
+  onclick: function () {
+     alert("My Button clicked!");
+  }
+});
 
     </script>
 
