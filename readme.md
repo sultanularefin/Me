@@ -1,7 +1,10 @@
 ﻿# Portfolio site
 
 
-by **Md. Sultanul Arefin.** 
+Thanks!
+
+-Md. Sultanul Arefin
+ 
 
 [Twitter](https://twitter.com/mdsultanul).
 
