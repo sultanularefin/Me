@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "sultanularefinuap", ".", "{D2AD760F-B5D1-4993-B5BC-C2D4E4C657A7}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_55089"
-		Debug.AspNetCompiler.PhysicalPath = "..\sultanularefinuap\"
+		Debug.AspNetCompiler.PhysicalPath = "..\Me\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55089\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_55089"
-		Release.AspNetCompiler.PhysicalPath = "..\sultanularefinuap\"
+		Release.AspNetCompiler.PhysicalPath = "..\Me\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55089\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55089"
-		SlnRelativePath = "..\sultanularefinuap\"
+		SlnRelativePath = "..\Me\"
 	EndProjectSection
 EndProject
 Global

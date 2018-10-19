@@ -27689,6 +27689,21 @@ li.language a {
     position: relative;
 }
 
+
+.lts-tag::after {
+        content: url("../img/LTS2.svg");
+        height: 24px;
+        position: absolute;
+        right: 4px;
+        top: 15px;
+    }
+
+
+
+.lts-tag {
+    position: relative;
+}
+
 .panel-title .anotherversoin::after {
     position: absolute;
     content: url(../img/version2.png);
