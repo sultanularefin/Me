@@ -27704,6 +27704,28 @@ li.language a {
     position: relative;
 }
 
+.panel-title .currentPosition-tag::after {
+    position: absolute;
+    content: url('../img/currentPosition-tag.svg');
+    right: 0px;
+    height: 24px;
+    top: 0px;
+}
+
+.currentPosition-tag::after {
+    content: url('../img/currentPosition-tag.svg');
+    height: 24px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+
+.currentPosition-tag {
+    position: relative;
+}
+
 .panel-title .anotherversoin::after {
     position: absolute;
     content: url(../img/version2.png);
