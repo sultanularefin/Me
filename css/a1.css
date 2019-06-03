@@ -15434,6 +15434,23 @@ iframe {
     }
 }
 
+@media (max-width:767px) {
+    .currentPosition-tag {
+        display: block;
+        height: 120px;
+        width:auto;
+        content: url("../img/currentPosition-tag2.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-indent: -9999999px;
+        margin:auto;
+        /*height: 24px;
+        position: absolute;
+        right: 0px;
+        top: 0px;*/
+    }
+}
+
 }
 
 /* Header Dark */
